@@ -1,0 +1,35 @@
+<!--
+   HTML code for a simple webpage with buttons to increment, decrement, and save counts.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+ 
+    <h1>People Entered: </h1>
+    <h2 id="count-el">0</h2> <!-- Display count here -->
+    
+    <div class="container">
+        <div>
+            <button class="inc" onclick="myfun()">Increment</button> <!-- Increment button -->
+        </div>
+        <div>
+            <button class="dec" onclick="myfun2()">Decrement</button> <!-- Decrement button -->
+        </div> 
+        <div>
+            <button onclick="save()" id="save">Save</button> <!-- Save button -->
+        </div>
+    </div>
+    
+    <h5 class="h5">Previous Entries : <br> </h5>
+    <h5 id="prev"> </h5> <!-- Display previous entries here -->
+    
+    <script src="js.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

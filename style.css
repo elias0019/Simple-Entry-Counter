@@ -1,0 +1,48 @@
+/*
+   CSS styles for a webpage with a background image, centered text, and styled buttons.
+*/
+
+body {
+    background-image: url('image.jpg'); /* Set background image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Cover entire background */
+    background-attachment: fixed; /* Fix background position */
+    background-position: center center; /* Center background image */
+}
+
+h1, h2 {
+    text-align: center; /* Center align heading elements */
+    font-family: 'Courier New', Courier, monospace; /* Set font family */
+}
+
+.h5, #prev {
+    text-align: center; /* Center align specific elements */
+    font-size: 25px; /* Set font size */
+    color: aqua; /* Set text color */
+}
+
+h2 {
+    color: aqua; /* Set color for h2 elements */
+    font-size: 60px; /* Set font size */
+}
+
+button {
+    width: 300px; /* Set button width */
+    text-align: center; /* Center align button text */
+    padding: 16px 0; /* Set button padding */
+}
+
+.container {
+    text-align: center; /* Center align container content */
+}
+
+.inc, .dec {
+    background-color: blue; /* Set background color for buttons */
+    color: aliceblue; /* Set text color for buttons */
+    border-radius: 4px; /* Set border radius */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+.inc:hover, .dec:hover {
+    background-color: black; /* Change background color on hover */
+}
